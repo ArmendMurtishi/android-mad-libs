@@ -6,7 +6,7 @@
 
     <application android:label="@string/app_name" >
         <activity
-            android:name=".QuadFormula"
+            android:name=".Madlibs"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
