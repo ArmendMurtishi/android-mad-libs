@@ -5,47 +5,27 @@
     android:layout_height="fill_parent"
     android:paddingTop="64dp"
     >
-    <TextView  
-        android:id="@+id/info"
+    
+    <!-- No text set here as the prompt should be set in code. -->
+    <TextView
+        android:id="@+id/prompt"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
-        android:text="Enter the coefficients a, b, and c of the quadratic in standard form.\nax^2+bx+c"
         />
-    <LinearLayout
-        android:orientation="horizontal"
+    <EditText
+        android:id="@+id/input"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_width="match_parent"
-        android:gravity="center_horizontal"
-        >
-        <EditText
-            android:id="@+id/a"
-            android:layout_height="wrap_content"
-            android:layout_width="64dp"
-            android:inputType="numberSigned"
-            android:hint="a"
-            />
-        <EditText
-            android:id="@+id/b"
-            android:layout_height="wrap_content"
-            android:layout_width="64dp"
-            android:inputType="numberSigned"
-            android:hint="b"
-            />
-        <EditText
-            android:id="@+id/c"
-            android:layout_height="wrap_content"
-            android:layout_width="64dp"
-            android:inputType="numberSigned"
-            android:hint="c"
-            />
-    </LinearLayout>
+        android:inputType="textShortMessage"
+        android:hint="Enter your response!"
+        />
     <Button
-        android:id="@+id/solve"
+        android:id="@+id/submit"
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="Solve"
+        android:text="Submit"
         />
 
 </LinearLayout>

@@ -13,5 +13,7 @@ public class Madlibs extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
+        
+        TextView prompt = (TextView) findViewById(R.id.prompt);
     }
 }
