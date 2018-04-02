@@ -1,8 +1,7 @@
-# android-quad-solver
+# android-mad-libs
 
-A simple quadratic solver for Android.
-
-Android emulator running the app in a web browser.
-![Emulator open in Codenvy with app running](https://user-images.githubusercontent.com/22998779/33234732-9da870a8-d1f9-11e7-8be7-b500d69452fa.png)
-Solved quadratic in the emulator.
-![Solved quadratic in Android emulator](https://user-images.githubusercontent.com/22998779/33234733-a0bec2ce-d1f9-11e7-8eee-af36a1c2b674.png)
+A basic mad-lib Android layout designed for classroom use; teachers can provide students with an Android UI without having to yet introduce them to the complexities of Android development.  
+  
+For teaching purposes, this code provides an Android layout with cookie-cutter Android code and library-style code.  
+With the library-style code, a very minimal amount of Android code must be seen by the student.
+With the cookie-cutter code, students can see the Android code, but must fill in sections with their unique code.
